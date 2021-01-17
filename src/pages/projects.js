@@ -5,7 +5,7 @@ import Projects from "../components/Projects"
 // ...GatsbyImageSharpFluid
 
 const ProjectsPage = ({
-  dat: {
+  data: {
     allStrapiProjects: { nodes: projects },
   },
 }) => {
